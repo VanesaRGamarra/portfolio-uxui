@@ -1,1 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto | Portfolio</title>
+  <meta name="description" content="Detalle del proyecto">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <nav class="nav">
+      <a href="index3.html" class="nav-logo">Vanesa Gamarra</a>
+      <ul class="nav-links">
+        <li><a href="index3.html#sobre">Sobre mí</a></li>
+        <li><a href="index3.html#trabajo">Proyectos</a></li>      
+        <li><a href="index3.html#contacto">Contacto</a></li>
+      </ul>
+      <button class="mobile-menu-btn" aria-label="Abrir menú">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Project Hero -->
+    <section class="project-hero">
+      <div class="container">
+        <a href="index3.html#trabajo" class="back-link">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M19 12H5M12 19l-7-7 7-7"/>
+          </svg>
+          Volver a proyectos
+        </a>
+        <h1 class="project-hero-title" id="project-title">Nombre del Proyecto</h1>
+        <p class="project-hero-description" id="project-tagline">Una breve descripción del proyecto</p>
+        <div class="project-meta">
+          <div class="meta-item">
+            <span class="meta-label">Rol</span>
+            <span class="meta-value" id="project-role">Diseño & Desarrollo</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Año</span>
+            <span class="meta-value" id="project-year">2024</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Cliente</span>
+            <span class="meta-value" id="project-client">Cliente</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Cover Image -->
+    <section class="project-cover">
+      <div class="container-wide">
+        <div class="cover-image" id="cover-image">
+          <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1600&h=900&fit=crop" alt="Proyecto">
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Content -->
+    <section class="project-content">
+      <div class="container">
+        <div class="content-grid">
+          <!-- Overview -->
+          <div class="content-section">
+            <h2 class="content-label">Resumen</h2>
+            <div class="content-text" id="project-overview">
+              <p>Este proyecto nació de la necesidad de crear una solución digital que combinara funcionalidad con una experiencia de usuario excepcional. El objetivo principal era desarrollar una plataforma que no solo cumpliera con los requisitos técnicos, sino que también ofreciera una interfaz intuitiva y atractiva.</p>
+              <p>Trabajando en estrecha colaboración con el cliente, identificamos los puntos clave que necesitaban atención y desarrollamos una estrategia integral que abarcó desde la investigación inicial hasta la implementación final.</p>
+            </div>
+          </div>
+
+          <!-- Challenge -->
+          <div class="content-section">
+            <h2 class="content-label">El Desafío</h2>
+            <div class="content-text" id="project-challenge">
+              <p>El principal desafío fue crear un sistema que pudiera manejar grandes volúmenes de datos mientras mantenía tiempos de respuesta rápidos. Además, la interfaz debía ser accesible para usuarios con diferentes niveles de experiencia técnica.</p>
+              <p>También fue crucial asegurar que el diseño fuera consistente en múltiples dispositivos y navegadores, manteniendo la identidad visual de la marca.</p>
+            </div>
+          </div>
+
+          <!-- Solution -->
+          <div class="content-section">
+            <h2 class="content-label">La Solución</h2>
+            <div class="content-text" id="project-solution">
+              <p>Implementamos una arquitectura modular que permite escalabilidad y mantenimiento eficiente. El frontend fue desarrollado con un enfoque mobile-first, asegurando una experiencia óptima en cualquier dispositivo.</p>
+              <p>Utilizamos un sistema de diseño personalizado que garantiza consistencia visual y facilita futuras iteraciones. La optimización del rendimiento fue prioridad durante todo el desarrollo.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Gallery -->
+    <section class="project-gallery">
+      <div class="container-wide">
+        <div class="gallery-grid" id="gallery-grid">
+          <div class="gallery-item full-width">
+            <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=1600&h=900&fit=crop" alt="Vista del proyecto">
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1559028012-481c04fa702d?w=800&h=600&fit=crop" alt="Detalle del proyecto">
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=800&h=600&fit=crop" alt="Detalle del proyecto">
+          </div>
+          <div class="gallery-item full-width">
+            <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=1600&h=900&fit=crop" alt="Vista del proyecto">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Results -->
+    <section class="project-results">
+      <div class="container">
+        <h2 class="content-label">Resultados</h2>
+        <div class="results-grid">
+          <div class="result-item">
+            <span class="result-number">+150%</span>
+            <span class="result-label">Incremento en conversiones</span>
+          </div>
+          <div class="result-item">
+            <span class="result-number">45%</span>
+            <span class="result-label">Reducción en tiempo de carga</span>
+          </div>
+          <div class="result-item">
+            <span class="result-number">4.8/5</span>
+            <span class="result-label">Satisfacción del usuario</span>
+          </div>
+          <div class="result-item">
+            <span class="result-number">+80k</span>
+            <span class="result-label">Usuarios activos mensuales</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technologies -->
+    <section class="project-tech">
+      <div class="container">
+        <h2 class="content-label">Tecnologías Utilizadas</h2>
+        <div class="tech-list" id="tech-list">
+          <span class="tech-tag">React</span>
+          <span class="tech-tag">TypeScript</span>
+          <span class="tech-tag">Next.js</span>
+          <span class="tech-tag">Tailwind CSS</span>
+          <span class="tech-tag">Node.js</span>
+          <span class="tech-tag">PostgreSQL</span>
+          <span class="tech-tag">Figma</span>
+          <span class="tech-tag">Vercel</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial -->
+    <section class="project-testimonial">
+      <div class="container">
+        <blockquote class="testimonial-quote">
+          "El trabajo realizado superó nuestras expectativas. No solo cumplieron con los plazos establecidos, sino que la calidad del resultado final fue excepcional. Definitivamente volveremos a trabajar juntos."
+        </blockquote>
+        <div class="testimonial-author">
+          <span class="author-name"></span>
+          <span class="author-role"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Next Project -->
+    <section class="next-project">
+      <div class="container">
+        <p class="next-label">Siguiente proyecto</p>
+        <a href="project.html?id=2" class="next-link" id="next-project-link">
+          <span class="next-title" id="next-project-title">Dashboard Analytics</span>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p class="copyright">© <span id="year">2026</span>. Creado por Vanesa Gamarra</p>
+      <div class="footer-links">
+        <a href="#">Privacidad</a>
+        <a href="#">Términos</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="project.js"></script>
+</body>
+</html>
 
